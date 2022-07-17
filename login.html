@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/2ee47aefac.js" crossorigin="anonymous"></script>
+    <style>
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav1 a {
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+            font-size: 1.5em;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+        }
+
+        .login-form input {
+            margin-top: 1em;
+            font-size: 1.5em;
+            padding: 5px 10px;
+        }
+
+        .login-form input[type="submit"] {
+            background-color: goldenrod;
+            border: 0;
+            border-radius: 5px;
+            color: whitesmoke;
+            font-weight: 700;
+        }
+
+        .login-form input[type="password"] {
+            background-color: mediumpurple;
+            border: 2;
+            border-radius: 5px;
+            color: whitesmoke;
+            font-weight: 700;
+        }
+
+        .login-form input[type="email"] {
+            background-color: powderblue;
+            border: 5;
+            border-radius: 5px;
+            color: rebeccapurple;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav1">
+            <span>
+                <a href="">Home</a>
+                <a href="">About us</a>
+                <a href="">Dashboard</a>
+                <a href="">Inventory</a>
+            </span>
+            <span>
+                <a href="https://fontawesome.com/icons/right-from-bracket?s=solid"><i class="fa-solid fa-user"></i></a>
+                <a href="https://fontawesome.com/icons/right-from-bracket?s=solid"><i
+                        class="fa-solid fa-right-from-bracket"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-container">
+        <form class="login-form">
+            <h3>Please login</h3>
+            <input type="email" name="" id="" placeholder="Your email" required>
+            <input type="password" name="" id="" placeholder="password" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</body>
+
+</html>
